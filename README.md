@@ -18,13 +18,13 @@ Sitio web personal donde muestro mi portafolio, habilidades y proyectos desarrol
 
 ## 📂 Estructura del proyecto
 
-/
-├─ src/ → código fuente (componentes, estilos, assets…)
-├─ public/ → archivos estáticos (favicon, index.html…)
-├─ .gitignore
-├─ package.json
-├─ vite.config.ts
-└─ tsconfig*.json
+    /
+    ├─ src/ → código fuente (componentes, estilos, assets…)
+    ├─ public/ → archivos estáticos (favicon, index.html…)
+    ├─ .gitignore
+    ├─ package.json
+    ├─ vite.config.ts
+    └─ tsconfig*.json
 
 yaml
 Copiar
