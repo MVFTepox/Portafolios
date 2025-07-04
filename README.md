@@ -1,5 +1,5 @@
-# Portafolios de [Tu Nombre] 🎨
-
+# Mi portafolios 🎨
+# Mario Valentin Fraire Tepox
 Sitio web personal donde muestro mi portafolio, habilidades y proyectos desarrollados con React, TypeScript y Vite.
 
 ---
