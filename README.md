@@ -19,7 +19,20 @@ Sitio web personal donde muestro mi portafolio, habilidades y proyectos desarrol
 ## 📂 Estructura del proyecto
 
     /
-    ├─ src/ → código fuente (componentes, estilos, assets…)
+    ├─ src/ 
+    src/
+        ├── assets/ # Imágenes y recursos estáticos
+        ├── Components/ # Componentes reutilizables
+        │ ├── home/ # Secciones de la Home (AboutMe, Habilities, etc.)
+        │ └── ui/ # Elementos de UI como NavBar, Footer, botones, animaciones
+        ├── data/ # Datos estáticos (SkillsData)
+        ├── guard/ # Protección de rutas privadas
+        ├── Lib/ # Funciones utilitarias
+        ├── router/ # Definición de rutas privadas
+        ├── Views/ # Vistas (públicas y privadas)
+        ├── App.tsx # Componente principal
+        ├── main.tsx # Punto de entrada
+        └── index.css # Estilos globales
     ├─ public/ → archivos estáticos (favicon, index.html…)
     ├─ .gitignore
     ├─ package.json
