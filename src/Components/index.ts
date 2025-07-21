@@ -6,4 +6,3 @@ export * from "@/Components/ui/Background-boxes";
 export * from "@/Components/ui/Btn";
 export * from "@/Components/home/AbautMe";
 export * from "@/Components/ui/Text-generate-effect";
-export * from "@/Components/home/Habilities";
