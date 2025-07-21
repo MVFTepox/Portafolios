@@ -8,7 +8,7 @@ export const Proyects = () => {
           Estos son mis proyectos creados con html, vue y react
         </h3>
         <div className="mt-10">
-          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-1">
             <CardPin
               title="Axo Web Digital"
               href="https://axo-web.netlify.app"
