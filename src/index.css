@@ -1,4 +1,25 @@
 @import "tailwindcss";
- @plugin "daisyui" {
+
+@plugin "daisyui" {
   themes: light --default;
- }
+}
+
+/* Oculta scrollbar en todos los navegadores */
+.scroll-hidden {
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE y Edge */
+}
+
+.scroll-hidden::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari, Opera */
+}
+
+.bg-Abautme {
+  background-color: #ffffff;
+  opacity: 0.9;
+  background-image: radial-gradient(circle at center center, #000000, #ffffff), repeating-radial-gradient(circle at center center, #000000, #000000, 19px, transparent 38px, transparent 19px);
+  background-blend-mode: multiply;
+}

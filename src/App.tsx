@@ -7,11 +7,11 @@ interface Props {
 
 function App( { children: Children }: Props ) {
   return (
-    <>
+    <div className="scroll-hidden">
       <Navbar />
       {Children}
       <Footer />
-    </>
+    </div>
   );
 }
  

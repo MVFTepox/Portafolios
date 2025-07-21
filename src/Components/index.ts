@@ -6,3 +6,6 @@ export * from "@/Components/ui/Background-boxes";
 export * from "@/Components/ui/Btn";
 export * from "@/Components/home/AbautMe";
 export * from "@/Components/ui/Text-generate-effect";
+export * from "@/Components/home/Proyects";
+export * from "@/Components/ui/3d-pin";
+export * from "@/Components/ui/card-pin";
