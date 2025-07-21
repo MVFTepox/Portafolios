@@ -9,6 +9,9 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
+  "overrides": {
+  "rollup": "^3.29.4"
+},
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
     "animate.css": "^4.1.1",
