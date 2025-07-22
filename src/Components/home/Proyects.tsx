@@ -48,6 +48,21 @@ export const Proyects = () => {
           />
         </div>
       </section>
+      <section className="mt-20">
+        <h1 className="text-4xl font-bold mb-2">Proyectos de diseño</h1>
+        <h3 className="text-2xl mb-8 text-gray-100">
+          Estos son mis proyectos creados con figma
+        </h3>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+          <CardPin
+            title="Diseño de figma de Axo Web Digital"
+            href="https://www.figma.com/design/0cOJdpAvmXxJEGwUcaHrR3/AxoWeb?node-id=1-2&t=3QOM3drxisMDodo7-1"
+            src=" https://i.pinimg.com/736x/88/4a/8e/884a8ed8ebfa49841a40ab82b1b70965.jpg" 
+            alt="Mercado Pago Logo"
+            text="Diseño de figma de Axo Web Digital para una empresa de venta de servicios de desarrollo web"
+          />
+        </div>
+      </section>
     </div>
   );
 };
