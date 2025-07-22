@@ -39,7 +39,7 @@ export const HomePresentation = () => {
             <BtnDecorationWithoutFuntion
               className="btn hover:shadow-lg shadow-blue-500 text-black px-6 py-2 rounded border border-white/30"
               text="Descargar CV"
-              onClick={() => downloadFile("/CV.pdf")}
+              onClick={() => downloadFile("/CV Mario Valentin Fraire Tepox.pdf")}
             />
           </div>
         </div>
