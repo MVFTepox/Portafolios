@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import { Navbar, Footer } from "@/Components";
+import { Navbar } from "@/Components";
 
 interface Props {
   children: ReactNode
@@ -10,7 +10,7 @@ function App( { children: Children }: Props ) {
     <div className="scroll-hidden">
       <Navbar />
       {Children}
-      <Footer />
+      
     </div>
   );
 }

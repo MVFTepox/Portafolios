@@ -4,18 +4,21 @@ interface Props {
   className?: string;
   text?: string;
   onClick?: () => void;
+  type?: string;
 }
 
 export const BtnDecorationWithoutFuntion = ({
   className,
   onClick,
-  text
+  text,
+  type = "button",
 }: Props) => {
+  const buttonType = type === "button" || type === "submit" || type === "reset" ? type : "button";
   return (
-    <>
-      <button onClick={onClick} className={cn(className)}>
+    
+      <button onClick={onClick} type={buttonType} className={cn(className)}>
         {text}
       </button>
-    </>
+    
   );
 };

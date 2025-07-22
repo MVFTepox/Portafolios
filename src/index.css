@@ -4,6 +4,12 @@
   themes: light --default;
 }
 
+body{
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  margin: 0; 
+  padding: 0;
+}
+
 /* Oculta scrollbar en todos los navegadores */
 .scroll-hidden {
   scrollbar-width: none;
@@ -18,8 +24,14 @@
 }
 
 .bg-Abautme {
-  background-color: #ffffff;
-  opacity: 0.9;
-  background-image: radial-gradient(circle at center center, #000000, #ffffff), repeating-radial-gradient(circle at center center, #000000, #000000, 19px, transparent 38px, transparent 19px);
-  background-blend-mode: multiply;
+  /* Patrón de líneas diagonales gris claro / oscuro */
+ background: linear-gradient(
+    135deg,
+    #1f1f1f 0%,
+    #797979 25%,
+    #3a3a3a 50%,
+    #2b2b2b 75%,
+    #414040 100%
+  );
 }
+

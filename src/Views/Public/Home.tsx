@@ -1,11 +1,12 @@
-import { Boxes, AbautMe, Proyects } from "@/Components";
+import { Boxes, AbautMe, Proyects, ContactForm } from "@/Components";
 import { HomePresentation } from "@/Components/home/HomePresentation";
 import { AnimatedSection } from "@/Hooks";
+
 export const Home = () => {
   return (
     <div className="snap-y snap-mandatory overflow-y-scroll scroll-hidden h-screen">
       {/* Sección 1 */}
-      <div className="relative snap-center h-screen py-20 overflow-hidden bg-black">
+      <div className="relative snap-center h-screen py-20 overflow-hidden bg-black px-4 sm:px-8">
         <Boxes />
 
         <AnimatedSection animation="animate__fadeInUp" once={true}>
@@ -14,9 +15,9 @@ export const Home = () => {
       </div>
 
       {/* Sección 2 */}
-      <div className="relative snap-center h-screen py-20 overflow-hidden text-white bg-Abautme border-y-4 border-double">
+      <div className="relative snap-center  py-20 overflow-hidden text-white bg-Abautme px-4 sm:px-8">
         <AnimatedSection animation="animate__fadeInUp" once={true}>
-          <h2 className="text-5xl mt-5 text-center underline decoration-double underline-offset-8">
+          <h2 className="text-4xl sm:text-5xl mt-5 text-center underline decoration-double underline-offset-8">
             Sobre Mi
           </h2>
         </AnimatedSection>
@@ -30,16 +31,13 @@ export const Home = () => {
       </div>
 
       {/* Sección 3 */}
-      <div
-        
-        className="relative snap-center   py-20 overflow-hidden text-white bg-black border-y-4 border-double"
-      >
+      <div className="relative snap-start py-20 overflow-hidden text-white bg-black px-4 sm:px-8">
         {/* Fondo de Boxes */}
-        <Boxes className=" absolute top-0 left-0 mt-96" />
+        <Boxes className="z-10 absolute top-[24rem] left-0" />
 
-        <div className="container mx-auto relative z-10">
+        <div className="container z-20 mx-auto relative max-w-7xl px-4">
           <AnimatedSection animation="animate__fadeInUp" once={true}>
-            <h2 className="z-auto text-5xl underline decoration-double underline-offset-8">
+            <h2 className="z-auto text-4xl sm:text-5xl underline decoration-double underline-offset-8 mb-6">
               Mis Proyectos
             </h2>
           </AnimatedSection>
@@ -48,22 +46,34 @@ export const Home = () => {
             once={true}
             delay="animate__delay-1s"
           >
-            <div className="my-6 px-5">
+            <div className="py-5">
               <Proyects />
             </div>
           </AnimatedSection>
         </div>
-      
       </div>
+
       {/* Sección 4 */}
-      <div className="relative snap-center h-screen py-20 overflow-hidden text-white bg-black border-y-4 border-double">
-       <div className="container mx-auto">
-         <AnimatedSection animation="animate__fadeInUp" once={true}>
-          <h2 id="contact" className="text-5xl mt-5 text-end underline decoration-double underline-offset-8">
-            Contactame
-          </h2>
-        </AnimatedSection>
-       </div>
+      <div className="relative snap-center py-20 overflow-hidden text-white bg-black px-4 sm:px-8">
+        <div className="container mx-auto max-w-3xl px-4">
+          <AnimatedSection animation="animate__fadeInUp" once={true}>
+            <h2
+              id="contact"
+              className="text-4xl sm:text-5xl mt-5 text-center sm:text-right underline decoration-double underline-offset-8"
+            >
+              Contáctame
+            </h2>
+            <AnimatedSection
+              animation="animate__fadeInUp"
+              once={true}
+              delay="animate__delay-1s"
+            >
+              <div className="my-10 p-8 sm:p-10 bg-white text-black rounded-3xl shadow-lg w-full sm:w-auto mx-auto flex justify-center items-center">
+                <ContactForm />
+              </div>
+            </AnimatedSection>
+          </AnimatedSection>
+        </div>
       </div>
     </div>
   );

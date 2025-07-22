@@ -33,7 +33,7 @@ export const CardPin = ({
           <img
             src={src.trim()}
             alt={alt}
-            className=" object-contain rounded-lg shadow-md w-auto h-auto"
+            className="w-auto h-auto object-cover rounded-md "
           />
         </div>
       </div>
