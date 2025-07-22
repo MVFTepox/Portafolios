@@ -1,6 +1,6 @@
 export * from "@/Components/NavBar";
 export * from "@/Components/RouteWhitNotFound";
-
+export * from "@/Components/MediaSocials";
 export * from "@/Components/home/HomePresentation";
 export * from "@/Components/ui/Background-boxes";
 export * from "@/Components/ui/Btn";

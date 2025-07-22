@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom";
+
+import { scrollById } from "@/Lib";
 
 export const Navbar = () => {
   return (
@@ -7,10 +8,17 @@ export const Navbar = () => {
         <div className="navbar shadow-sm justify-center text-white backdrop-blur-lg md:w-1/2 lg:w-1/2 rounded-full absolute  md:inset-x-1/4 lg:inset-x-1/4 top-2 ">
           <ul className="menu menu-horizontal px-1 ">
             <li>
-              <Link to="/">Desarrollo Web</Link>
+              <button onClick={() => scrollById("home")}>Inicio</button>
             </li>
             <li>
-              <a>Diseñador Grafico</a>
+              <button onClick={() => scrollById("skills")}>Sombre mi</button>
+  
+            </li>
+            <li>
+              <button onClick={() => scrollById("projects")}>Proyectos</button>
+            </li>
+            <li>
+              <button onClick={() => scrollById("contact")}>Contacto</button>
             </li>
           </ul>
         </div>
@@ -47,11 +55,18 @@ export const Navbar = () => {
               <div className="hidden flex-none lg:block">
                 <ul className="menu menu-horizontal">
                   <li>
-                    <a>Navbar Item 1</a>
+                    <button onClick={() => scrollById("home")}>Inicio</button>
                   </li>
                   <li>
-                    <a>Navbar Item 2</a>
+                    <button onClick={() => scrollById("skills")}>Sombre mi</button>
                   </li>
+                  <li>
+                    <button onClick={() => scrollById("projects")}>Proyectos</button>
+                  </li>
+                  <li>
+                    <button onClick={() => scrollById("contact")}>Contacto</button>
+                  </li>
+
                 </ul>
               </div>
             </div>

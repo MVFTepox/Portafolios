@@ -26,8 +26,7 @@ export const HomePresentation = () => {
 
           <p className="text-base sm:text-lg text-gray-200">
             Hola soy <span className="text-xl font-semibold">Mario Fraire</span>
-            , especializado en crear soluciones innovadoras y escalables{" "}
-            <br className="hidden sm:inline" /> para mejorar la experiencia de
+            , especializado en crear soluciones innovadoras y escalables para mejorar la experiencia de
             los usuarios en línea.
           </p>
 

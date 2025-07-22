@@ -5,7 +5,7 @@ export const Proyects = () => {
     <div className="p-4 mt-10 max-w-7xl mx-auto">
       <section>
         <h1 className="text-4xl font-bold mb-2">Proyectos de Front-End</h1>
-        <h3 className="text-2xl mb-8 text-gray-700">
+        <h3 className="text-2xl mb-8 text-gray-100">
           Estos son mis proyectos creados con HTML, Vue y React
         </h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
@@ -35,7 +35,7 @@ export const Proyects = () => {
 
       <section className="mt-20">
         <h1 className="text-4xl font-bold mb-2">Proyectos de Back-End</h1>
-        <h3 className="text-2xl mb-8 text-gray-700">
+        <h3 className="text-2xl mb-8 text-gray-100">
           Estos son mis proyectos creados con Node y Express
         </h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
