@@ -1,8 +1,8 @@
 export const AbautMe = () => {
   return (
     <div className="mt-10 px-4 max-w-5xl mx-auto">
-      <div className=" bg-opacity-40 backdrop-blur-lg bg-[#ffffff14] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 rounded-2xl p-6 sm:p-10 mx-auto  w-full md:w-2/4 lg:w-4/4">
-        <div className="card border-1 border-gray-400">
+      <div className=" text-lg  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 rounded-2xl p-6 sm:p-10 mx-auto  w-full md:w-lg lg:w-4/4">
+        <div className="card border-1 bg-opacity-40 backdrop-blur-lg bg-[#ffffff14] border-gray-400">
           <div className="card-body">
             <p className="card-text">
               Soy desarrollador <strong>FullStack</strong> con experiencia en la
@@ -15,7 +15,7 @@ export const AbautMe = () => {
           </div>
         </div>
 
-        <div className="card border-1 border-gray-400">
+        <div className="card border-1 bg-opacity-40 backdrop-blur-lg bg-[#ffffff14] border-gray-400">
           <div className="card-body">
             <p className="card-text">
               He desarrollado APIs RESTful seguras, sistemas de autenticación
@@ -28,7 +28,7 @@ export const AbautMe = () => {
           </div>
         </div>
 
-        <div className="card border-1 border-gray-400">
+        <div className="card border-1 bg-opacity-40  backdrop-blur-lg bg-[#ffffff14] border-gray-400 md:col-span-2 lg:col-span-1">
           <div className="card-body">
             <p className="card-text">
               También tengo dominio en herramientas de diseño como{" "}
@@ -42,13 +42,17 @@ export const AbautMe = () => {
           </div>
         </div>
 
-        <div className="card border-1 border-gray-400 col-span-1 md:col-span-2 lg:col-span-3">
-          <p>
-            Me enfoco en entregar soluciones sólidas, eficientes y con una
-            excelente experiencia de usuario, aplicando buenas prácticas de
-            desarrollo, arquitectura limpia y patrones modernos tanto en el
-            cliente como en el servidor.
-          </p>
+        <div className="card border-1 p-1 bg-opacity-40 backdrop-blur-lg bg-[#ffffff14] border-gray-400 col-span-1 md:col-span-2 lg:col-span-3">
+          <div className="card-body">
+            <div className="card-text">
+              <p>
+                Me enfoco en entregar soluciones sólidas, eficientes y con una
+                excelente experiencia de usuario, aplicando buenas prácticas de
+                desarrollo, arquitectura limpia y patrones modernos tanto en el
+                cliente como en el servidor.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
 
