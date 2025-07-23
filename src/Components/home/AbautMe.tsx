@@ -75,12 +75,20 @@ export const AbautMe = () => {
             src: "https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg"
           },
           {
+            alt: "logo MySQL workbench",
+            src: "https://www.citypng.com/public/uploads/preview/hd-mysql-logo-transparent-background-701751694771788209ydqoapx.png"
+          },
+          {
             alt: "logo typescript",
             src: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg"
           },
           {
             alt: "logo tailwind",
             src: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
+          },
+          {
+            alt: "logo Bootstrap",
+            src: "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg"
           },
           {
             alt: "logo figma",
