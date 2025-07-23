@@ -1,37 +1,55 @@
 export const AbautMe = () => {
   return (
     <div className="mt-10 px-4 max-w-5xl mx-auto">
-      <div className="bg-opacity-40 backdrop-blur-lg bg-[#ffffff14] rounded-2xl p-6 sm:p-10 mx-auto text-center w-full md:w-2/4 lg:w-4/4">
-        <p className="text-base sm:text-lg md:text-xl text-white leading-relaxed">
-          Soy desarrollador <strong>FullStack</strong> con experiencia en la
-          creación de aplicaciones web modernas y escalables. Trabajo con
-          tecnologías como <strong>React</strong>, <strong>Vue.js</strong>,{" "}
-          <strong>TypeScript</strong> y <strong>Tailwind CSS</strong> en el
-          frontend; y en el backend utilizo <strong>Node.js</strong>,{" "}
-          <strong>Express</strong> y <strong>MongoDB</strong>.
-          <br />
-          <br />
-          He desarrollado APIs RESTful seguras, sistemas de autenticación con{" "}
-          <strong>JWT</strong> y <strong>bcrypt</strong>, e integrado pasarelas
-          de pago como <strong>Mercado Pago</strong>. Además, tengo experiencia
-          desplegando proyectos en plataformas como <strong>AWS</strong>,{" "}
-          <strong>Vercel</strong> y <strong>Railway</strong>.
-          <br />
-          <br />
-          También tengo dominio en herramientas de diseño como{" "}
-          <strong>Figma</strong>, <strong>Adobe Photoshop</strong> e{" "}
-          <strong>Illustrator</strong>, que utilizo para diseñar interfaces
-          intuitivas, limpias y funcionales. Como complemento, tengo
-          conocimientos en <strong>modelado 3D</strong>, lo cual me permite
-          enriquecer la experiencia visual en presentaciones o sitios
-          interactivos.
-          <br />
-          <br />
-          Me enfoco en entregar soluciones sólidas, eficientes y con una
-          excelente experiencia de usuario, aplicando buenas prácticas de
-          desarrollo, arquitectura limpia y patrones modernos tanto en el
-          cliente como en el servidor.
-        </p>
+      <div className="bg-opacity-40 backdrop-blur-lg bg-[#ffffff14] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 rounded-2xl p-6 sm:p-10 mx-auto text-center w-full md:w-2/4 lg:w-4/4">
+        <div className="card">
+          <div className="card-body">
+            <p className="card-text">
+              Soy desarrollador <strong>FullStack</strong> con experiencia en la
+              creación de aplicaciones web modernas y escalables. Trabajo con
+              tecnologías como <strong>React</strong>, <strong>Vue.js</strong>,{" "}
+              <strong>TypeScript</strong> y <strong>Tailwind CSS</strong> en el
+              frontend; y en el backend utilizo <strong>Node.js</strong>,{" "}
+              <strong>Express</strong> y <strong>MongoDB</strong>.
+            </p>
+          </div>
+        </div>
+
+        <div className="card">
+          <div className="card-body">
+            <p className="card-text">
+              He desarrollado APIs RESTful seguras, sistemas de autenticación
+              con <strong>JWT</strong> y <strong>bcrypt</strong>, e integrado
+              pasarelas de pago como <strong>Mercado Pago</strong>. Además,
+              tengo experiencia desplegando proyectos en plataformas como{" "}
+              <strong>AWS</strong>, <strong>Vercel</strong> y{" "}
+              <strong>Railway</strong>.
+            </p>
+          </div>
+        </div>
+
+        <div className="card">
+          <div className="card-body">
+            <p className="card-text">
+              También tengo dominio en herramientas de diseño como{" "}
+              <strong>Figma</strong>, <strong>Adobe Photoshop</strong> e{" "}
+              <strong>Illustrator</strong>, que utilizo para diseñar interfaces
+              intuitivas, limpias y funcionales. Como complemento, tengo
+              conocimientos en <strong>modelado 3D</strong>, lo cual me permite
+              enriquecer la experiencia visual en presentaciones o sitios
+              interactivos.
+            </p>
+          </div>
+        </div>
+
+        <div className="card col-span-1 md:col-span-2 lg:col-span-3">
+          <p>
+            Me enfoco en entregar soluciones sólidas, eficientes y con una
+            excelente experiencia de usuario, aplicando buenas prácticas de
+            desarrollo, arquitectura limpia y patrones modernos tanto en el
+            cliente como en el servidor.
+          </p>
+        </div>
       </div>
 
       <div className=" mt-12 mb-6">
