@@ -18,17 +18,30 @@ export const HomePresentation = () => {
           src="/FotoVale.jpg"
           alt="Foto-De-Valentin"
         />
-
         <div className="backdrop-blur-3xl p-6 sm:p-8 md:p-10 border bg-white/5 border-white/20 rounded-2xl shadow-black shadow-sm max-w-md md:max-w-xl text-center md:text-left">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl mb-4 font-stretch-ultra-expanded">
-            Desarrollador FullStack
+          <h1 className="text-3xl sm:text-4xl md:text-4xl mb-4 font-stretch-ultra-expanded">
+            Desarrollador FullStack Jr.
           </h1>
-
           <p className="text-base sm:text-lg text-gray-200">
-            Hola soy <span className="text-xl font-semibold">Mario Fraire</span>
-            , especializado en crear soluciones innovadoras, creativas y escalables para mejorar la experiencia de
+            Hola soy <span className="text-xl font-semibold">Mario Valentín Fraire Tépox </span>
+            Desarrollador FullStack Jr., especializado en crear soluciones innovadoras, creativas y escalables para mejorar la experiencia de
             los usuarios en línea.
           </p>
+          <div className="flex flex-col sm:flex-row justify-center md:justify-start gap-4 sm:gap-6 mt-6">
+            <div className="flex items-center justify-center md:justify-start mt-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
+              </svg>
+              <span className="ml-2">Torreon, Coahuila, México</span>
+            </div>
+            <div className="flex items-center justify-center md:justify-start mt-2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-calendar-check text-green-500" viewBox="0 0 16 16">
+                <path d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0" />
+                <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z" />
+              </svg>
+              <span className="ml-2">Disponible</span>
+            </div>
+          </div>
 
           <div className="flex flex-col sm:flex-row justify-center md:justify-start gap-4 sm:gap-6 mt-6">
             <BtnDecorationWithoutFuntion
